@@ -1,0 +1,34 @@
+import random
+
+def simular_log_rede():
+    tipos_ataque = ["DDoS", "Força bruta", "Injeção SQL", "Phishing"]
+    ips_atacantes = ["192.168.1.10", "192.168.1.20", "192.168.1.30"]
+    ips_alvo = ["192.168.1.100", "192.168.1.110", "192.168.1.120"]
+    log = []
+    for _ in range(100):
+        if random.random() < 0.1:  # 10% de chance de ataque
+            tipo_ataque = random.choice(tipos_ataque)
+            ip_atacante = random.choice(ips_atacantes)
+            ip_alvo = random.choice(ips_alvo)
+            log.append(f"Ataque {tipo_ataque} de {ip_atacante} para {ip_alvo}")
+        else:
+            ip_alvo = random.choice(ips_alvo)
+            log.append(f"Tráfego normal para {ip_alvo}")
+    return log
+
+def identificar_ataques(log):
+    ataques_detectados = []
+    for entrada in log:
+        if "Ataque" in entrada:
+            ataques_detectados.append(entrada)
+    return ataques_detectados
+
+log_rede = simular_log_rede()
+ataques = identificar_ataques(log_rede)
+
+if ataques:
+    print("Ataques detectados:")
+    for ataque in ataques:
+        print(ataque)
+else:
+    print("Nenhum ataque detectado.")

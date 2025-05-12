@@ -1,5 +1,8 @@
-Sistema de Gerenciamento de Biblioteca
-Este é um sistema web para gerenciamento de uma biblioteca, desenvolvido com Django. O sistema permite cadastrar autores, categorias, livros e gerenciar empréstimos de livros pelos usuários.
+#prog-comp 
+
+Repositório destinado a matéria de Programação de Computadores e seus desafios de programação, com orientação da Prof. Kadidja Valéria. 
+
+
 
 Integrantes
 Daniel Henrique de Souza - 35952377

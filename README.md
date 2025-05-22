@@ -29,30 +29,27 @@ O repositório está organizado da seguinte forma:
 
 - [Repositório no GitHub](https://github.com/guicanedoti/Programacao-de-Computadores)  
 
----
+## 🤝 Como Colaborar
 
-## 🧠 Desafios  
+Quer contribuir com o projeto? Siga os passos abaixo:
 
-### Desafio 01 - Números Pares  
+1. **Fork** este repositório. <p>
+   
+2. Crie uma **branch** com a sua feature ou correção:  <p> 
+   ```
+   git checkout -b minha-contribuicao
 
-#### ✅ Descrição  
+3. Faça commit das suas alterações: <p> 
+ ```
+   git commit -m "Adiciona novo conteúdo/desafio"
+```
+4. Faça o push para a branch: <p> 
+ ```
+    git push origin minha-contribuicao
+ ```
+5. Abra um Pull Request explicando a suas alterações. <p> 
 
-Escreva um programa que leia um número inteiro **N** e mostre todos os números **pares** de 1 até **N**.
 
-#### ⚙️ Lógica utilizada  
 
-1. Receber o valor de N do usuário.  
-2. Utilizar um laço `for` para percorrer os números de 1 até N.  
-3. Verificar se o número é par com `i % 2 == 0`.  
-4. Exibir os números pares encontrados.
-
-#### 💻 Código-fonte (Python)  
-
-```python
-n = int(input("Digite um número: "))
-
-print("Números pares de 1 até", n, ":")
-
-for i in range(1, n + 1):
-    if i % 2 == 0:
-        print(i)
+   
+   

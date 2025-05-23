@@ -54,7 +54,17 @@ Quer contribuir com o projeto? Siga os passos abaixo:
 
 5. Adicione as alterações no controle de versão: 
 
-```bash  
+``` 
    git add. 
 
+
+6. Faça um commit com uma mensagem clara do que foi alterado: 
+```  
+git commit -m "Adiciona nova funcionalidade/desafio"
+
+```  
+
+7. Envie a branch para seu repositótio forkado no GitHub: 
+```  
+git push origin minha-contribuicao
 

@@ -17,6 +17,7 @@ O repositório está organizado da seguinte forma:
 
 - **Atividades-Práticas/** → Contém desafios e exercícios desenvolvidos para aprimorar os conhecimentos em programação.  
 - **README.md** → Explica a estrutura e finalidade do repositório.  
+- **Projeto-Final** → Pasta do Projeto Final da matéria de Programação de Computadores (em desenvolvimento)
 
 ## 🛠 Linguagens Utilizadas  
 
@@ -68,3 +69,4 @@ git commit -m "Adiciona nova funcionalidade/desafio"
 ```  
 git push origin minha-contribuicao
 
+> 📘 Este material foi desenvolvido como parte da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

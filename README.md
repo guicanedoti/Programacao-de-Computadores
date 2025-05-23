@@ -28,7 +28,7 @@ O repositório está organizado da seguinte forma:
 
 - [Repositório no GitHub](https://github.com/guicanedoti/Programacao-de-Computadores)  
 - [Notebook no Google Colab](https://colab.research.google.com/drive/1fdfeTXAR5DmAggVbtfqK8qEEizw2TkAB#scrollTo=6-QhcHhZcATH)
-## 🤝 Como Colaborar
+
 
 ## 🤝 Como Colaborar
 
@@ -48,10 +48,13 @@ Quer contribuir com o projeto? Siga os passos abaixo:
    ```bash 
    git checkout -b minha-contribuicao
 
+
 4. Faça as alterações desejadas no código ou documentação. 
+
 
 5. Adicione as alterações no controle de versão: 
 
 ```bash  
    git add. 
+
 

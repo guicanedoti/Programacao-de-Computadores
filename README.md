@@ -27,7 +27,7 @@ O repositório está organizado da seguinte forma:
 ## 🔗 Recursos  
 
 - [Repositório no GitHub](https://github.com/guicanedoti/Programacao-de-Computadores)  
-
+- 
 ## 🤝 Como Colaborar
 
 Quer contribuir com o projeto? Siga os passos abaixo:

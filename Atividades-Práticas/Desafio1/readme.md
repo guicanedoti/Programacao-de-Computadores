@@ -26,4 +26,4 @@ Estudantes iniciantes na área da computação.
 - Allana de Jesus Siqueira – 35071206
 
 
-> 📘 Este material foi desenvolvido como parte do **Desafio 2** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.
+> 📘 Este material foi desenvolvido como parte do **Desafio 1** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

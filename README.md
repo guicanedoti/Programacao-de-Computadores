@@ -68,5 +68,6 @@ git commit -m "Adiciona nova funcionalidade/desafio"
 7. **Envie** a branch para seu repositótio forkado no GitHub: 
 ```  
 git push origin minha-contribuicao
+```
 
 > 📘 Este material foi desenvolvido como parte da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

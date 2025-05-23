@@ -27,12 +27,31 @@ O repositório está organizado da seguinte forma:
 ## 🔗 Recursos  
 
 - [Repositório no GitHub](https://github.com/guicanedoti/Programacao-de-Computadores)  
-- 
+- [Notebook no Google Colab](https://colab.research.google.com/drive/1fdfeTXAR5DmAggVbtfqK8qEEizw2TkAB#scrollTo=6-QhcHhZcATH)
+## 🤝 Como Colaborar
+
 ## 🤝 Como Colaborar
 
 Quer contribuir com o projeto? Siga os passos abaixo:
 
-1. **Fork** este repositório.  
-2. Crie uma **branch** com a sua feature ou correção:  
+1. **Fork** este repositório.
+
+2. **Clone** o repositório para sua máquina local:
+
    ```bash
+   git clone https://github.com/guicanedoti/Programacao-de-Computadores.git
+   cd Programacao-de-Computadores
+
+
+3.  **Crie** uma branch com a sua feature ou correção: 
+
+   ```bash 
    git checkout -b minha-contribuicao
+
+4. Faça as alterações desejadas no código ou documentação. 
+
+5. Adicione as alterações no controle de versão: 
+
+```bash  
+   git add. 
+

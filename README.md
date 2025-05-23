@@ -45,26 +45,26 @@ Quer contribuir com o projeto? Siga os passos abaixo:
 
 3.  **Crie** uma branch com a sua feature ou correção: 
 
-   ```bash 
+ ``` 
    git checkout -b minha-contribuicao
+``` 
+
+4. **Faça** as alterações desejadas no código ou documentação. 
 
 
-4. Faça as alterações desejadas no código ou documentação. 
-
-
-5. Adicione as alterações no controle de versão: 
+5. **Adicione** as alterações no controle de versão: 
 
 ``` 
    git add. 
+``` 
 
-
-6. Faça um commit com uma mensagem clara do que foi alterado: 
+6. **Faça** um commit com uma mensagem clara do que foi alterado: 
 ```  
 git commit -m "Adiciona nova funcionalidade/desafio"
 
 ```  
 
-7. Envie a branch para seu repositótio forkado no GitHub: 
+7. **Envie** a branch para seu repositótio forkado no GitHub: 
 ```  
 git push origin minha-contribuicao
 

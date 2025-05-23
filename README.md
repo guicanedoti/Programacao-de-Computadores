@@ -1,5 +1,3 @@
-
-
 # Programação de Computadores  
 
 ## 📌 Sobre o Repositório  
@@ -22,8 +20,9 @@ O repositório está organizado da seguinte forma:
 
 ## 🛠 Linguagens Utilizadas  
 
-- **Jupyter Notebook (92.7%)**  
-- **Python (7.3%)**  
+![Top Language](https://img.shields.io/github/languages/top/guicanedoti/Programacao-de-Computadores?style=flat-square)  
+![Languages Count](https://img.shields.io/github/languages/count/guicanedoti/Programacao-de-Computadores?style=flat-square)  
+![Repo Size](https://img.shields.io/github/repo-size/guicanedoti/Programacao-de-Computadores?style=flat-square)
 
 ## 🔗 Recursos  
 
@@ -33,23 +32,7 @@ O repositório está organizado da seguinte forma:
 
 Quer contribuir com o projeto? Siga os passos abaixo:
 
-1. **Fork** este repositório. <p>
-   
-2. Crie uma **branch** com a sua feature ou correção:  <p> 
-   ```
+1. **Fork** este repositório.  
+2. Crie uma **branch** com a sua feature ou correção:  
+   ```bash
    git checkout -b minha-contribuicao
-
-3. Faça commit das suas alterações: <p> 
- ```
-   git commit -m "Adiciona novo conteúdo/desafio"
-```
-4. Faça o push para a branch: <p> 
- ```
-    git push origin minha-contribuicao
- ```
-5. Abra um Pull Request explicando a suas alterações. <p> 
-
-
-
-   
-   

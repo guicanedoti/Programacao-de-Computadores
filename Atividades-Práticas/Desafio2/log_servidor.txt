@@ -1,0 +1,6 @@
+Usuário admin falha de login 3 vezes
+Conexão bem-sucedida de IP 192.168.1.10
+Erro 500 na página de cadastro
+Falha de login root
+Requisição concluída com sucesso
+Erro 404 - Página não encontrada

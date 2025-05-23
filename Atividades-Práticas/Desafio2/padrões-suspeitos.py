@@ -20,8 +20,8 @@ padroes = {
     r"erro 500": "Erro interno do servidor",
 }
 
-padroes_encontrados = identificar_padroes_suspeitos("caminho/para/seu/arquivo_de_log.txt", padroes)
+padroes_encontrados = identificar_padroes_suspeitos("log_servidor.txt", padroes)
 if padroes_encontrados:
-    print("Padrões suspeitos encontrados:\n", padroes_encontrados)
+    print("🚨 Padrões suspeitos encontrados:\n", padroes_encontrados)
 else:
-    print("Nenhum padrão suspeito encontrado.")
+    print("✅ Nenhum padrão suspeito encontrado.")

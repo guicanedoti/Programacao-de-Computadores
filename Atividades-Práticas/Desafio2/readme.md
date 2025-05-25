@@ -35,6 +35,6 @@ Detectar comportamentos anômalos em dados de rede (ex: picos de tráfego, poss�
 - **Alessandro Rodrigues Justino Junior** – 35293349  
 - **Allana de Jesus Siqueira** – 35071206  
 
----
+
 
 > 📘 Este material foi desenvolvido como parte do **Desafio 2** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

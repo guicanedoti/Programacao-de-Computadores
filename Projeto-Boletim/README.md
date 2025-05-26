@@ -58,10 +58,6 @@ cd Projeto_Boletim
 python main.py
 
 ```
---- 
-
-🤝 Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto.
 
 
 ## 👥 Integrantes do Grupo

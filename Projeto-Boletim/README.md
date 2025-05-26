@@ -63,3 +63,14 @@ python main.py
 🤝 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto.
 
+
+## 👥 Integrantes do Grupo
+
+- **Daniel Henrique de Souza** – 35952377  
+- **Guilherme Canedo Santos** – 35863161  
+- **Alessandro Rodrigues Justino Junior** – 35293349  
+- **Allana de Jesus Siqueira** – 35071206  
+
+
+
+> 📘 Este material foi desenvolvido como parte do **Desafio 2** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

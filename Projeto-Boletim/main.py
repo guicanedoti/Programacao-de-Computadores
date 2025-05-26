@@ -1,62 +1,45 @@
 import tkinter as tk
-from tkinter import messagebox
-from dados import adicionar_aluno, listar_alunos
+from tkinter import ttk
+import csv
+import os
 
-# Nossas funções de interface  
-
-def cadastrar_aluno():
+def salvar_boletim():
     nome = entry_nome.get()
-    
-    try:
-        nota1 = float(entry_nota1.get())
-        nota2 = float(entry_nota2.get())  # Aqui definimos corretamente a nota2
-    except ValueError:
-        messagebox.showerror("Erro", "Notas devem ser números.")
-        return
+    notas = [float(entry.get()) for entry in entries_notas]
+    media = sum(notas) / len(notas)
 
-    if nome.strip() == "":
-        messagebox.showwarning("Atenção", "Digite o nome do aluno.")
-        return
+    with open('boletim.csv', mode='a', newline='') as arquivo:
+        escritor = csv.writer(arquivo)
+        escritor.writerow([nome] + notas + [media])
 
-    adicionar_aluno(nome, nota1, nota2)
-    messagebox.showinfo("Sucesso", f"Aluno {nome} cadastrado com sucesso!")
+    limpar_campos()
 
+def limpar_campos():
     entry_nome.delete(0, tk.END)
-    entry_nota1.delete(0, tk.END)
-    entry_nota2.delete(0, tk.END)
+    for entry in entries_notas:
+        entry.delete(0, tk.END)
 
-def exibir_boletim():
-    alunos = listar_alunos()
-    if not alunos:
-        messagebox.showinfo("Boletim", "Nenhum aluno cadastrado.")
-        return
+def abrir_no_excel():
+    caminho = os.path.abspath("boletim.csv")
+    os.startfile(caminho)  # Funciona apenas no Windows
 
-    janela_boletim = tk.Toplevel()
-    janela_boletim.title("Boletim de Alunos")
-
-    for i, aluno in enumerate(alunos):
-        texto = f"{aluno['nome']} | Nota 1: {aluno['nota1']} | Nota 2: {aluno['nota2']} | Média: {aluno['media']:.2f} | Situação: {aluno['status']}"
-        tk.Label(janela_boletim, text=texto).pack(anchor='w', padx=10, pady=2)
-
-# Janela principal  
+# Interface gráfica
 janela = tk.Tk()
-janela.title("Projeto Boletim Escolar")
+janela.title("Boletim Escolar")
 
-# Rótulos e campos de entrada
-tk.Label(janela, text="Nome do aluno:").grid(row=0, column=0, padx=5, pady=5)
+tk.Label(janela, text="Nome do Aluno:").grid(row=0, column=0, padx=5, pady=5)
 entry_nome = tk.Entry(janela)
-entry_nome.grid(row=0, column=1)
+entry_nome.grid(row=0, column=1, padx=5, pady=5)
 
-tk.Label(janela, text="Nota 1:").grid(row=1, column=0, padx=5, pady=5)
-entry_nota1 = tk.Entry(janela)
-entry_nota1.grid(row=1, column=1)
-
-tk.Label(janela, text="Nota 2:").grid(row=2, column=0, padx=5, pady=5)
-entry_nota2 = tk.Entry(janela)
-entry_nota2.grid(row=2, column=1)
+entries_notas = []
+for i in range(4):
+    tk.Label(janela, text=f"Nota {i+1}:").grid(row=i+1, column=0, padx=5, pady=5)
+    entry = tk.Entry(janela)
+    entry.grid(row=i+1, column=1, padx=5, pady=5)
+    entries_notas.append(entry)
 
 # Botões
-tk.Button(janela, text="Cadastrar Aluno", command=cadastrar_aluno).grid(row=3, column=0, columnspan=2, pady=10)
-tk.Button(janela, text="Visualizar Boletim", command=exibir_boletim).grid(row=4, column=0, columnspan=2)
+ttk.Button(janela, text="Salvar", command=salvar_boletim).grid(row=5, column=0, padx=5, pady=10)
+ttk.Button(janela, text="Abrir no Excel", command=abrir_no_excel).grid(row=5, column=1, padx=5, pady=10)
 
 janela.mainloop()

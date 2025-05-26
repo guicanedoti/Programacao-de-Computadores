@@ -5,4 +5,4 @@ def verificar_situacao(media):
     if media >= 7.0:
         return 'Aprovado' 
     else: 
-        return 'Reprovado'
+        return 'Reprovado' 

@@ -38,7 +38,7 @@ def exibir_boletim():
         texto = f"{aluno['nome']} | Nota 1: {aluno['nota1']} | Nota 2: {aluno['nota2']} | Média: {aluno['media']:.2f} | Situação: {aluno['status']}"
         tk.Label(janela_boletim, text=texto).pack(anchor='w', padx=10, pady=2)
 
-# --- Janela principal ---
+# Janela principal  
 janela = tk.Tk()
 janela.title("Projeto Boletim Escolar")
 

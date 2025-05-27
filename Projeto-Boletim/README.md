@@ -1,11 +1,27 @@
-# 📚 Projeto_Boletim
+# 📚 Projeto Boletim
 
 ## 🎯 Objetivo
 
-O **Projeto_Boletim** é um sistema desenvolvido em Python com interface gráfica usando Tkinter, que tem como objetivo facilitar o gerenciamento de boletins escolares. Com ele, é possível cadastrar alunos, registrar notas e gerar relatórios de desempenho de forma simples e intuitiva.
+O **Projeto_Boletim** é um sistema desenvolvido como trabalho final da disciplina de Programação de Computadores. Ele simula o gerenciamento de um boletim escolar, permitindo o cadastro de alunos, entrada de suas notas, cálculo automático da média e definição da situação do aluno (Aprovado ou Reprovado). Tudo isso utilizando conceitos de lógica de programação e interface gráfica com Tkinter.
 
 ---
+## 🧠 Conceitos Aplicados 
+ 
+Este Projeto foi construído com base nos módulos da disciplina: 
 
+**Lógica de Programação e Algoritmos** – Definimos o fluxo do sistema e a estrutura de dados para armazenar informações dos alunos.
+
+**Condicionais e Laços** – Utilizamos if para tomar decisões como verificar a média e aprovar ou reprovar alunos.
+
+**Vetores e Matrizes** – Usamos listas (alunos = []) para armazenar os dados dos alunos dinamicamente.
+
+**Funções Modulares** – O código é dividido em arquivos (main.py, logica.py, dados.py), cada um com responsabilidades bem definidas.
+
+**Depuração e Testes** – Testamos o sistema durante o desenvolvimento e utilizamos try-except para capturar erros de digitação de notas.
+
+**Controle de Versão com Git/GitHub** – Todo o projeto foi versionado e mantido publicamente no GitHub, demonstrando trabalho em equipe e controle de mudanças.
+
+---
 ## 🚀 Funcionalidades
 
 - 🧑‍🎓 **Cadastro de Alunos:** Permite incluir, editar e remover informações dos alunos.
@@ -34,8 +50,6 @@ Projeto_Boletim/
 ├── dados/ # Pasta para armazenar arquivos de dados (ex: JSON, CSV)
 └── README.md # Este arquivo 
 ```
---- 
-
 
 ---
 

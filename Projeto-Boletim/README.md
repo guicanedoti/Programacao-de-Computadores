@@ -25,7 +25,7 @@ O **Projeto_Boletim** é um sistema desenvolvido em Python com interface gráfic
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 Projeto_Boletim/
 │
 ├── main.py # Arquivo principal com a interface Tkinter
@@ -33,7 +33,7 @@ Projeto_Boletim/
 ├── boletim.py # Módulo para gerenciamento das notas e cálculos
 ├── dados/ # Pasta para armazenar arquivos de dados (ex: JSON, CSV)
 └── README.md # Este arquivo 
-
+```
 --- 
 
 

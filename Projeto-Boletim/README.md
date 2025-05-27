@@ -7,20 +7,15 @@ O **Projeto_Boletim** é um sistema desenvolvido como trabalho final da discipli
 ---
 ## 🧠 Conceitos Aplicados 
  
-Este Projeto foi construído com base nos módulos da disciplina: 
+## 🧠 Conceitos Aplicados
+Este projeto foi construído com base nos módulos da disciplina:
 
-**Lógica de Programação e Algoritmos** – Definimos o fluxo do sistema e a estrutura de dados para armazenar informações dos alunos.
-
-**Condicionais e Laços** – Utilizamos if para tomar decisões como verificar a média e aprovar ou reprovar alunos.
-
-**Vetores e Matrizes** – Usamos listas (alunos = []) para armazenar os dados dos alunos dinamicamente.
-
-**Funções Modulares** – O código é dividido em arquivos (main.py, logica.py, dados.py), cada um com responsabilidades bem definidas.
-
-**Depuração e Testes** – Testamos o sistema durante o desenvolvimento e utilizamos try-except para capturar erros de digitação de notas.
-
-**Controle de Versão com Git/GitHub** – Todo o projeto foi versionado e mantido publicamente no GitHub, demonstrando trabalho em equipe e controle de mudanças.
-
+1. **Lógica de Programação e Algoritmos** – Definimos o fluxo do sistema e a estrutura de dados para armazenar informações dos alunos.
+2. **Condicionais e Laços** – Utilizamos `if` para tomar decisões como verificar a média e aprovar ou reprovar alunos.
+3. **Vetores e Matrizes** – Usamos listas (`alunos = []`) para armazenar os dados dos alunos dinamicamente.
+4. **Funções Modulares** – O código é dividido em arquivos (`main.py`, `logica.py`, `dados.py`), cada um com responsabilidades bem definidas.
+5. **Depuração e Testes** – Testamos o sistema durante o desenvolvimento e utilizamos `try-except` para capturar erros de digitação de notas.
+6. **Controle de Versão com Git/GitHub** – Todo o projeto foi versionado e mantido publicamente no GitHub, demonstrando trabalho em equipe e controle de mudanças.
 ---
 ## 🚀 Funcionalidades
 

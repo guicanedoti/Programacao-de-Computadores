@@ -5,7 +5,6 @@
 O **Projeto_Boletim** é um sistema desenvolvido como trabalho final da disciplina de Programação de Computadores. Ele simula o gerenciamento de um boletim escolar, permitindo o cadastro de alunos, entrada de suas notas, cálculo automático da média e definição da situação do aluno (Aprovado ou Reprovado). Tudo isso utilizando conceitos de lógica de programação e interface gráfica com Tkinter.
 
 ---
-## 🧠 Conceitos Aplicados 
  
 ## 🧠 Conceitos Aplicados
 Este projeto foi construído com base nos módulos da disciplina:

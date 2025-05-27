@@ -69,4 +69,4 @@ python main.py
 
 
 
-> 📘 Este material foi desenvolvido como parte do **Desafio 2** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.
+> 📘 Este material foi desenvolvido como parte do **Projeto Final** da disciplina **Programação de Computadores**, sob orientação da professora **Kadidja Valéria**.

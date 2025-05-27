@@ -1,8 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 import csv
-import os 
+import os
 
+# Caminho base do arquivo atual
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def salvar_boletim():
@@ -10,7 +11,10 @@ def salvar_boletim():
     notas = [float(entry.get()) for entry in entries_notas]
     media = sum(notas) / len(notas)
 
-    with open('Projeto-Boletim/boletim.csv', mode='a', newline='') as arquivo:
+    # Caminho completo para o arquivo boletim.csv
+    caminho = os.path.join(BASE_DIR, "boletim.csv")
+
+    with open(caminho, mode='a', newline='') as arquivo:
         escritor = csv.writer(arquivo)
         escritor.writerow([nome] + notas + [media])
 
@@ -22,8 +26,11 @@ def limpar_campos():
         entry.delete(0, tk.END)
 
 def abrir_no_excel():
-    caminho = os.path.abspath("Projeto-Boletim/boletim.csv")
-    os.startfile(caminho)  # Funciona apenas no Windows
+    caminho = os.path.join(BASE_DIR, "boletim.csv")
+    if os.path.exists(caminho):
+        os.startfile(caminho)  # Windows
+    else:
+        print("Arquivo boletim.csv não encontrado!")
 
 # Interface gráfica
 janela = tk.Tk()
